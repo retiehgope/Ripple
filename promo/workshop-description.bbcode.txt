@@ -101,7 +101,7 @@ Community convolution-EQ packs and third-party IRs also work — just verify the
 [/list]
 
 [h2]许可 / License[/h2]
-以 MIT 许可发布，源码仓库：https://github.com/<your-name>/ripple
-Released under the MIT License. Source: https://github.com/<your-name>/ripple
+以 MIT 许可发布，源码仓库：https://github.com/retiehgope/ripple
+Released under the MIT License. Source: https://github.com/retiehgope/ripple
 本插件不分发任何第三方滤波器文件。
 No third-party filter files are bundled.
