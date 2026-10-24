@@ -1,0 +1,63 @@
+{
+  "configs": [
+    {
+      "title": "Ripple",
+      "config": "config.json",
+      "preferences": [
+        {
+          "type": "edittext",
+          "key": "display",
+          "title": "当前滤波器",
+          "summary": "显示已加载的文件名；换文件请点下面的「选择 .wav 文件」",
+          "default_value": "（未选择）"
+        },
+        {
+          "type": "button",
+          "title": "选择 .wav 文件",
+          "summary": "打开文件选择器，加载本地卷积滤波器（IR）",
+          "arrow_type": "link",
+          "on_click": "com.local.spwconv.MainPlugin.chooseFile"
+        },
+        {
+          "type": "list",
+          "key": "makeup",
+          "title": "响度补偿",
+          "summary": "卷积滤波器峰值归一化通常会让整体响度下降，这里补回来",
+          "entries": [
+            "自适应 (rms)",
+            "1 kHz 锚点 (anchor)",
+            "不补偿 (none)"
+          ],
+          "entry_values": [
+            "rms",
+            "anchor",
+            "none"
+          ],
+          "default_value": "rms"
+        },
+        {
+          "type": "seekbar",
+          "key": "gain",
+          "title": "额外增益 (dB)",
+          "default_value": 0.0,
+          "min": -12.0,
+          "max": 12.0
+        },
+        {
+          "type": "switch",
+          "key": "bypass",
+          "title": "旁路",
+          "summary": "开启后不处理音频，用于 A/B 对比",
+          "default_value": false
+        },
+        {
+          "type": "button",
+          "title": "重新加载",
+          "summary": "换成别的文件后，或想重新挂载时点一下",
+          "arrow_type": "none",
+          "on_click": "com.local.spwconv.MainPlugin.reload"
+        }
+      ]
+    }
+  ]
+}

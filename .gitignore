@@ -1,0 +1,10 @@
+# ????
+build/
+*.spmod
+*.jar
+!gradle-wrapper.jar
+
+# ????
+.vscode/
+.idea/
+*.log
