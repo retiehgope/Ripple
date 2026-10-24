@@ -55,6 +55,7 @@ $mf = @(
     'Plugin-Provider: Ripple',
     'Plugin-Name: Ripple',
     'Plugin-Description: Convolution filter plugin for Salt Player',
+    'Plugin-Open-Source-Url: https://github.com/retiehgope/Ripple',
     'Plugin-Has-Config: true'
 )
 [System.IO.File]::WriteAllLines($manifest, $mf, (New-Object System.Text.ASCIIEncoding))
