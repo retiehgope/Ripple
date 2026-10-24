@@ -141,7 +141,7 @@ The player's built-in EQ and this plugin are chained; if the player already appl
 
 ## 许可 / License
 
-以 MIT 许可发布，源码仓库：`https://github.com/retiehgope/ripple`（发布前把 `retiehgope` 换成你的 GitHub 名）。
+以 MIT 许可发布，源码仓库：`https://github.com/retiehgope/ripple`。
 Released under the MIT License. Source: `https://github.com/retiehgope/ripple`.
 
 本插件不分发任何第三方滤波器文件；AutoEq 等测量数据遵循其各自许可。
